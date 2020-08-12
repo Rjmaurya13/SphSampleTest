@@ -1,4 +1,4 @@
 # SphSampleTest
 
-## Vip model has been used.
+## Vip architecture has been used.
 ## Added test cases.
