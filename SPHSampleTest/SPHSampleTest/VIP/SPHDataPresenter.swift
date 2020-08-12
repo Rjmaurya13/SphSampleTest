@@ -13,7 +13,7 @@ protocol SPHDataPresenterLogic: class {
     func presentMobileData(response: [SPHDataViewModel])
 }
 
-class MobileDataPresenter: SPHDataPresenterLogic {
+class SPHDataPresenter: SPHDataPresenterLogic {
     weak var viewController: SPHDataProtocol?
 
     func presentMobileData(response: [SPHDataViewModel]) {

@@ -20,8 +20,8 @@ class SPHDataViewController: UITableViewController, SPHDataProtocol {
     private func setup() {
         
         let viewController = self
-        let interactor = MobileDataInteractor()
-        let presenter = MobileDataPresenter()
+        let interactor = SPHDataInteractor()
+        let presenter = SPHDataPresenter()
         let router = SPHDataRouter()
         viewController.interactor = interactor
         viewController.router = router as? (NSObjectProtocol & SPHDetailsDataPassing & SPHDetailsRoutingLogic)
@@ -90,7 +90,7 @@ extension SPHDataViewController {
 }
 extension SPHDataViewController: SPHDataTableViewCellDelegate {
     func showPopUpWithMessage() {
-        let alert = UIAlertController(title: "Alert", message: "Decrease in volume data.", preferredStyle: .alert)
+        let alert = UIAlertController(title: "SPHSampleTest", message: "Decrease in volume data.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.view.window?.rootViewController?.present(alert, animated: true, completion: nil)
     }

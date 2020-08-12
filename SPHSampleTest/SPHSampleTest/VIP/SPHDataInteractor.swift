@@ -15,7 +15,7 @@ protocol MobileDetailsDataStore {
     var posts: [SPHDataViewModel] { get set }
 }
 
-class MobileDataInteractor: MobileDataDetailsBusinessLogic, MobileDetailsDataStore {
+class SPHDataInteractor: MobileDataDetailsBusinessLogic, MobileDetailsDataStore {
     var posts: [SPHDataViewModel] = []
     var presenter: SPHDataPresenterLogic?
     var worker: SPHDataWorker? = SPHDataWorker()
