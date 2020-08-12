@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,16 @@
 		727B0FDA24E3BA4700EF17B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727B0FD824E3BA4700EF17B9 /* LaunchScreen.storyboard */; };
 		727B0FE524E3BA4700EF17B9 /* SPHSampleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B0FE424E3BA4700EF17B9 /* SPHSampleTestTests.swift */; };
 		727B0FF024E3BA4700EF17B9 /* SPHSampleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B0FEF24E3BA4700EF17B9 /* SPHSampleTestUITests.swift */; };
+		727B100324E3BCF700EF17B9 /* UrlConstan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B100224E3BCF700EF17B9 /* UrlConstan.swift */; };
+		727B100524E3BD1200EF17B9 /* SPHTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B100424E3BD1200EF17B9 /* SPHTableViewCell.swift */; };
+		727B100724E3BD2100EF17B9 /* SPHDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B100624E3BD2100EF17B9 /* SPHDataViewController.swift */; };
+		727B100924E3BD2E00EF17B9 /* SPHDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B100824E3BD2E00EF17B9 /* SPHDataInteractor.swift */; };
+		727B100B24E3BD3C00EF17B9 /* SPHDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B100A24E3BD3C00EF17B9 /* SPHDataModel.swift */; };
+		727B100D24E3BD4400EF17B9 /* SPHDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B100C24E3BD4400EF17B9 /* SPHDataPresenter.swift */; };
+		727B100F24E3BD6E00EF17B9 /* SPHDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B100E24E3BD6E00EF17B9 /* SPHDataRouter.swift */; };
+		727B101124E3BD7700EF17B9 /* SPHDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B101024E3BD7700EF17B9 /* SPHDataViewModel.swift */; };
+		727B101324E3BD7F00EF17B9 /* SPHDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B101224E3BD7F00EF17B9 /* SPHDataWorker.swift */; };
+		727B101524E3BD9900EF17B9 /* SPHDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B101424E3BD9900EF17B9 /* SPHDataTableViewCell.swift */; };
 		B5FDD4CDEE00A1889AFA6EFC /* Pods_SPHSampleTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BB6EF510DD6564A1B28B6B /* Pods_SPHSampleTestTests.framework */; };
 		BD6325520C9CC1B086FEFBB0 /* Pods_SPHSampleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421766AF7F8CF3C885735839 /* Pods_SPHSampleTest.framework */; };
 		E19B31F5193C09AE72010159 /* Pods_SPHSampleTest_SPHSampleTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51EE77C78A311D2C587672E /* Pods_SPHSampleTest_SPHSampleTestUITests.framework */; };
@@ -54,6 +64,16 @@
 		727B0FEB24E3BA4700EF17B9 /* SPHSampleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHSampleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		727B0FEF24E3BA4700EF17B9 /* SPHSampleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHSampleTestUITests.swift; sourceTree = "<group>"; };
 		727B0FF124E3BA4700EF17B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727B100224E3BCF700EF17B9 /* UrlConstan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlConstan.swift; sourceTree = "<group>"; };
+		727B100424E3BD1200EF17B9 /* SPHTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHTableViewCell.swift; sourceTree = "<group>"; };
+		727B100624E3BD2100EF17B9 /* SPHDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataViewController.swift; sourceTree = "<group>"; };
+		727B100824E3BD2E00EF17B9 /* SPHDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataInteractor.swift; sourceTree = "<group>"; };
+		727B100A24E3BD3C00EF17B9 /* SPHDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataModel.swift; sourceTree = "<group>"; };
+		727B100C24E3BD4400EF17B9 /* SPHDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataPresenter.swift; sourceTree = "<group>"; };
+		727B100E24E3BD6E00EF17B9 /* SPHDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataRouter.swift; sourceTree = "<group>"; };
+		727B101024E3BD7700EF17B9 /* SPHDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataViewModel.swift; sourceTree = "<group>"; };
+		727B101224E3BD7F00EF17B9 /* SPHDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataWorker.swift; sourceTree = "<group>"; };
+		727B101424E3BD9900EF17B9 /* SPHDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHDataTableViewCell.swift; sourceTree = "<group>"; };
 		A3BB6EF510DD6564A1B28B6B /* Pods_SPHSampleTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHSampleTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B228383BBB8E03A435CAB39E /* Pods-SPHSampleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTest.release.xcconfig"; path = "Target Support Files/Pods-SPHSampleTest/Pods-SPHSampleTest.release.xcconfig"; sourceTree = "<group>"; };
 		B754CB46FD23C9176581CE72 /* Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SPHSampleTest-SPHSampleTestUITests/Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +119,6 @@
 				5E2F5C12148C5A6300780E59 /* Pods-SPHSampleTestTests.debug.xcconfig */,
 				07AA7D894508C24E7918841C /* Pods-SPHSampleTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +159,11 @@
 			children = (
 				727B0FCD24E3BA4400EF17B9 /* AppDelegate.swift */,
 				727B0FD124E3BA4400EF17B9 /* ViewController.swift */,
+				727B100124E3BCBA00EF17B9 /* ViewController */,
+				727B100024E3BC9D00EF17B9 /* TableViewCell */,
+				727B0FFF24E3BC7B00EF17B9 /* BaseClass */,
+				727B0FFE24E3BC6400EF17B9 /* Constants */,
+				727B0FFD24E3BC4A00EF17B9 /* VIP */,
 				727B0FD324E3BA4400EF17B9 /* Main.storyboard */,
 				727B0FD624E3BA4700EF17B9 /* Assets.xcassets */,
 				727B0FD824E3BA4700EF17B9 /* LaunchScreen.storyboard */,
@@ -164,6 +188,51 @@
 				727B0FF124E3BA4700EF17B9 /* Info.plist */,
 			);
 			path = SPHSampleTestUITests;
+			sourceTree = "<group>";
+		};
+		727B0FFD24E3BC4A00EF17B9 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				727B100824E3BD2E00EF17B9 /* SPHDataInteractor.swift */,
+				727B100A24E3BD3C00EF17B9 /* SPHDataModel.swift */,
+				727B100C24E3BD4400EF17B9 /* SPHDataPresenter.swift */,
+				727B100E24E3BD6E00EF17B9 /* SPHDataRouter.swift */,
+				727B101024E3BD7700EF17B9 /* SPHDataViewModel.swift */,
+				727B101224E3BD7F00EF17B9 /* SPHDataWorker.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		727B0FFE24E3BC6400EF17B9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				727B100224E3BCF700EF17B9 /* UrlConstan.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		727B0FFF24E3BC7B00EF17B9 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				727B100424E3BD1200EF17B9 /* SPHTableViewCell.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		727B100024E3BC9D00EF17B9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				727B101424E3BD9900EF17B9 /* SPHDataTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		727B100124E3BCBA00EF17B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				727B100624E3BD2100EF17B9 /* SPHDataViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,8 +474,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727B101324E3BD7F00EF17B9 /* SPHDataWorker.swift in Sources */,
+				727B100924E3BD2E00EF17B9 /* SPHDataInteractor.swift in Sources */,
+				727B100724E3BD2100EF17B9 /* SPHDataViewController.swift in Sources */,
+				727B100F24E3BD6E00EF17B9 /* SPHDataRouter.swift in Sources */,
+				727B100B24E3BD3C00EF17B9 /* SPHDataModel.swift in Sources */,
 				727B0FD224E3BA4400EF17B9 /* ViewController.swift in Sources */,
 				727B0FCE24E3BA4400EF17B9 /* AppDelegate.swift in Sources */,
+				727B101124E3BD7700EF17B9 /* SPHDataViewModel.swift in Sources */,
+				727B100324E3BCF700EF17B9 /* UrlConstan.swift in Sources */,
+				727B101524E3BD9900EF17B9 /* SPHDataTableViewCell.swift in Sources */,
+				727B100D24E3BD4400EF17B9 /* SPHDataPresenter.swift in Sources */,
+				727B100524E3BD1200EF17B9 /* SPHTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P5GMKTJ86;
 				INFOPLIST_FILE = SPHSampleTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -600,6 +680,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P5GMKTJ86;
 				INFOPLIST_FILE = SPHSampleTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
