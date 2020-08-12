@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import UIKit
+
+protocol SPHDataPresenterLogic: class {
+    func presentMobileData(response: [SPHDataViewModel])
+}
+
+class MobileDataPresenter: SPHDataPresenterLogic {
+    weak var viewController: SPHDataProtocol?
+
+    func presentMobileData(response: [SPHDataViewModel]) {
+        viewController?.displayMobileData(viewModel: response)
+    }
+}

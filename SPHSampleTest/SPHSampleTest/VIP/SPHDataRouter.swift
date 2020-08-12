@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import UIKit
+
+@objc protocol SPHDetailsRoutingLogic {
+    func routeToSomewhere()
+}
+
+protocol SPHDetailsDataPassing {
+    var dataStore: MobileDetailsDataStore? { get }
+}
+
+class SPHDataRouter: NSObject, SPHDetailsDataPassing {
+    weak var viewController: SPHDataViewController?
+    var dataStore: MobileDetailsDataStore?
+}
