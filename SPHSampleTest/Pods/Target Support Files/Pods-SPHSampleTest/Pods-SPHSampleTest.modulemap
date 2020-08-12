@@ -1,0 +1,6 @@
+framework module Pods_SPHSampleTest {
+  umbrella header "Pods-SPHSampleTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
