@@ -1,5 +1,5 @@
 //
-//  UrlConstan.swift
+//  SPHDataInteractor.swift
 //  SPHSampleTest
 //
 //  Created by Rajeshkumar on 12/8/20.

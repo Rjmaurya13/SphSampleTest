@@ -29,7 +29,13 @@ class SPHDataTableViewCell: SPHTableViewCell {
         viewBg.layer.cornerRadius = 8
         // Initialization code
     }
-   
+    func ConfigureCellWithData(data: SPHDataViewModel) {
+        lblYear.text = "Year: "
+        lblYearDescription.text = data.quarter
+        lblVolume.text = "Volume: "
+        lblVolumeDescription.text = data.volume
+        increaseDecreaseVolume.isHidden = !data.volumeDataDecrease
+    }
     @IBAction func clickOnButtonEvent(_ sender: Any) {
         delegate?.showPopUpWithMessage()
     }
